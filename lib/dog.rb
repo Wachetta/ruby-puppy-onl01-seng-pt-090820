@@ -16,13 +16,13 @@ class Dog
   
   def self.clear_all
   @@all.clear
- binding.pry
+ 
  end
 
   def self.print_all
-   @@all.each do |x|
-
-     puts "#{x}"
+   @@all
+binding.pry
+    
      end
    end
   
