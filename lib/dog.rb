@@ -30,6 +30,6 @@ class Dog
   private
  
   def prints
-    
+  end
 
 end
