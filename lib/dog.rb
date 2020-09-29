@@ -27,6 +27,9 @@ class Dog
     @@all << self
     end
   
+  private
+ 
+  def prints
     
 
 end
