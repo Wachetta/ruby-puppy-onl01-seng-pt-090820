@@ -29,7 +29,8 @@ class Dog
   
   private
  
-  def prints
+  def print
+    prints @@all
   end
 
 end
