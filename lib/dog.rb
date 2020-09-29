@@ -18,7 +18,8 @@ class Dog
  end
 
   def self.print_all
-   print 
+   @@all.each do |x|
+     puts "#{x}"
    end
  
   
@@ -26,10 +27,6 @@ class Dog
     @@all << self
     end
   
-  private
- 
-  def print
-    prints @@all
-  end
+  
 
 end
