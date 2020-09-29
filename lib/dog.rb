@@ -20,8 +20,8 @@ class Dog
   def self.print_all
    @name.each do |x|
      puts "#{x}"
+     end
    end
- end
   
   def save
     @@all << self
