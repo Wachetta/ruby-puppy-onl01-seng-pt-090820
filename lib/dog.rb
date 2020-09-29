@@ -8,7 +8,7 @@ class Dog
   def initialize(name)
     @name = name
     save
-    end
+  end
 
   def self.all
     @@all
@@ -16,18 +16,17 @@ class Dog
   
   def self.clear_all
   @@all.clear
- 
- end
+  end
 
   def self.print_all
    @@all
-binding.pry
-    end
+   binding.pry
+  end
    
   
   def save
     @@all << self
-    end
+  end
   
   
 
