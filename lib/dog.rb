@@ -24,7 +24,7 @@ class Dog
 binding.pry
     
      end
-   end
+   
   
   def save
     @@all << self
